@@ -9,3 +9,5 @@ def print_age(age):
 print_name("Alex")
 
 print_age(24)
+
+print("Hello Python")
