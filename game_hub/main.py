@@ -50,5 +50,3 @@ if start == "+":
 
 if start == "-":
     print("Very sad! ave a nice day!")
-else:
-    print("Sorry, I dont understant you. Restasrt a game please.")
