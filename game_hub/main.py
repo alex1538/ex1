@@ -1,6 +1,6 @@
 import random
 
-start = input("You start game 'Rock Paper Scissors'. For start press '+' and '-' to quit.")
+start = input("You start game 'Rock Paper Scissors'. For start press '+' and '-' to quit:\n ")
 
 if start == "+":
     print("Loading...")
@@ -11,7 +11,7 @@ if start == "+":
     user_ball = 0
     rand_ball = 0
     while True:
-        user = input("Rock - 'R' , Paper - 'P' or Scissors - 'S'?")
+        user = input("Rock - 'R' , Paper - 'P' or Scissors - 'S'?\n ")
         list_play = ["R", "P", "S"]
         if user in list_play:
             rand = random.choice(list_play)
