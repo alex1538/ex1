@@ -1,6 +1,6 @@
 import random
 
-start = input("You start game 'Tik-Tak-Toe'. For start press '+' and '-' to quit.")
+start = input("You start game 'Rock Paper Scissors'. For start press '+' and '-' to quit.")
 
 if start == "+":
     print("Loading...")
@@ -10,3 +10,6 @@ if start == "+":
     print("If you want known your score - press '?'")
     user_ball = 0
     rand_ball = 0
+    while True:
+        user = input("Rock, Paper or Scissors?")
+        list_play = ["R", "P", "S"]
