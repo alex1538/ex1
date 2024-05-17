@@ -33,3 +33,16 @@ if start == "+":
 
             if rand == user:
                 pass
+        elif user == "?":
+            print(f"Your score - {user_ball}, score your enemy - {rand_ball}")
+        elif user == "-":
+            print(f"Your score - {user_ball}, score your enemy - {rand_ball}")
+            print("Thank you for game! Have a nice day!")
+            break
+        else:
+            print("Write - R,P or S")
+
+if start == "-":
+    print("Very sad! ave a nice day!")
+else:
+    print("Sorry, I dont understant you. Restasrt a game please.")
